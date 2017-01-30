@@ -7,6 +7,16 @@
 Include it in your project and then add the middleware like this:
 
 ```
+go get github.com/michele/echo-requestid
+
+or
+
+glide get github.com/michele/echo-requestid
+```
+
+then use it in your project:
+
+```
 import (
   requestid "github.com/michele/echo-requestid"
 )
